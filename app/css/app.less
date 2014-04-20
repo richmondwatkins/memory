@@ -1,54 +1,45 @@
-@import url(http://fonts.googleapis.com/css?family=Open+Sans);
 
-body{
-  background-image: url('../media/bg.svg');
-  background-size: cover;
-  background-attachment: fixed;
+#game {
+  border: 2px solid black;
+  width: 50%;
+  height: auto;
 }
 
-html, button, input, select, textarea,
-.pure-g [class *= "pure-u"] {
-  /* Set your content font stack here: */
-  font-family: 'Open Sans', sans-serif;
+td {
+  width: 100px;
+  height: 100px;
 }
 
-.button-success,
-.button-error,
-.button-warning,
-.button-secondary {
-  color: white;
-  border-radius: 4px;
-  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+#timer {
+  width:40px;
+  height: 40px;
+  border: 2px solid black;
+  float: right
 }
 
-.button-success {
-  background: rgb(82, 227, 101);
+tr {
+  border: solid #ccc;
+  padding: 5px;
 }
 
-.button-error {
-  background: rgb(210, 115, 78);
+td {
+  height: 100px;
+  border: solid #ccc;
+  padding: 5px;
 }
 
-.button-warning {
-  background: rgb(223, 117, 20);
+.hidden {
+  opacity: 0;
 }
 
-.button-secondary {
-  background: rgba(108, 67, 223, 0.55);
+.display {
+  opacity: 0.9;
 }
 
-.button-xsmall {
-  font-size: 50%;
+.freeze {
+  opacity: 0.9;
 }
 
-.button-small {
-  font-size: 85%;
-}
-
-.button-large {
-  font-size: 110%;
-}
-
-.button-xlarge {
-  font-size: 150%;
-}
+.warning (
+  background-color: red;
+  )
