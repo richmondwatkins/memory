@@ -1,0 +1,46 @@
+body {
+  background-image: url('../media/pokemon12.jpg');
+}
+td {
+  width: 20px;
+  height: 75px;
+  border: 5px solid white;
+  background-size: cover;
+}
+#clock {
+  font-size: 25px;
+  color: white;
+}
+#start {
+  margin-left: 41%;
+  margin-bottom: 10px;
+  height: 3em;
+  width: 9em;
+  border-radius: 10px;
+  border: 2px solid black;
+  background-color: #e4e4e4;
+  color: red;
+}
+.opacity {
+  opacity: 0;
+}
+.reveal {
+  opacity: 1;
+}
+.frozen {
+  opacity: 1;
+}
+#game {
+  width: 100%;
+  max-width: 500px;
+  padding-top: 15px;
+  margin: 0 auto;
+}
+#game img {
+  width: 100%;
+  height: auto;
+}
+#container {
+  width: 80%;
+  margin: 0 auto;
+}
